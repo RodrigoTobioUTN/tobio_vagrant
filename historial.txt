@@ -1,30 +1,55 @@
-    1  ~ls
-    2  ls
-    3  whoami
-    4  pwd
-    5  man
-    6  man man
-    7  man ls
-    8  ls -l
-    9  ls -la
-   10  ls -a
-   11  ls -la
-   12  echo "hola"
-   13  echo $HOME
-   14  ls
-   15  cd repogit
+    1  ls
+    2  cd tobio_vagrant/
+    3  ls
+    4  git status
+    5  git push -u origin master
+    6  git push -u origin main
+    7  vagrant halt
+    8  exit
+    9  git status
+   10  lsd
+   11  ls
+   12  cd tobio_vagrant
+   13  ls
+   14  git status
+   15  git push
    16  ls
-   17  clear
-   18  history
-   19  ls -la
-   20  cd ..
-   21  ls
-   22  cat README 
-   23  git clone https://github.com/RodrigoTobioUTN/tobio_vagrant.git
-   24  ls
-   25  cd tobio_vagrant/
-   26  ls
-   27  cat README.md 
-   28  history
-   29  clear
-   30  history > historial.txt
+   17  cd tobio_vagrant/
+   18  ls
+   19  git status
+   20  git push
+   21  git add.
+   22  git add .
+   23  git status
+   24  git commit -m "primer commit"
+   25  git push
+   26  exit
+   27  ls
+   28  ls-la
+   29  ls -la
+   30  ssh-keygen -t ed25519
+   31  ls
+   32  ls -la
+   33  cd ssh
+   34  cd .ssh
+   35  ls
+   36  cat id_ed25519.pub
+   37  cd ..
+   38  ls
+   39  cd repogit/
+   40  ls
+   41  git clone https://github.com/RodrigoTobioUTN/tobio_vagrant
+   42  ls
+   43  cd tobio_vagrant/
+   44  ls
+   45  ls -la
+   46  cd ..
+   47  ls
+   48  rm -rf tobio_vagrant
+   49  ls
+   50  git clone git@github.com:RodrigoTobioUTN/tobio_vagrant.git
+   51  ls
+   52  cd tobio_vagrant/
+   53  ls
+   54  git status
+   55  history > historial.txt
